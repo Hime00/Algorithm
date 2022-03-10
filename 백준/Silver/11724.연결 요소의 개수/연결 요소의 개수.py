@@ -1,5 +1,6 @@
 a,b=map(int,input().split())
 array = [[] for _ in range(a+1)]
+# 인접 행렬 구현하기
 for _ in range(b):
     x, y = map(int, input().split())		
     array[x].append(y)
