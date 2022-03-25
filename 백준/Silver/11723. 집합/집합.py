@@ -1,10 +1,10 @@
 import sys
-
-m = int(sys.stdin.readline())
+input=sys.stdin.readline
+m = int(input())
 S = set()
 
 for _ in range(m):
-    temp = sys.stdin.readline().strip().split()
+    temp = input().strip().split()
     
     if len(temp) == 1:
         if temp[0] == "all":
